@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lonep/Documents/GitHub/Memorization/main.cpp
+iostream
+-
+fstream
+-
+readerTXT.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
+readerJSON.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h
+
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
+testCard.h
+C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
+fstream
+-
+list
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h
+reader.h
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
+
+C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
+reader.h
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
+fstream
+-
+string
+-
+list
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
+string
+-
+vector
+-
+
