@@ -122,33 +122,6 @@ memorization/fast:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/build
 .PHONY : memorization/fast
 
-file.obj: file.cpp.obj
-
-.PHONY : file.obj
-
-# target to build an object file
-file.cpp.obj:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/file.cpp.obj
-.PHONY : file.cpp.obj
-
-file.i: file.cpp.i
-
-.PHONY : file.i
-
-# target to preprocess a source file
-file.cpp.i:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/file.cpp.i
-.PHONY : file.cpp.i
-
-file.s: file.cpp.s
-
-.PHONY : file.s
-
-# target to generate assembly for a file
-file.cpp.s:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/file.cpp.s
-.PHONY : file.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -230,32 +203,32 @@ readerTXT.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.s
 .PHONY : readerTXT.cpp.s
 
-writerJSON.obj: writerJSON.cpp.obj
+testCard.obj: testCard.cpp.obj
 
-.PHONY : writerJSON.obj
+.PHONY : testCard.obj
 
 # target to build an object file
-writerJSON.cpp.obj:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.obj
-.PHONY : writerJSON.cpp.obj
+testCard.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.obj
+.PHONY : testCard.cpp.obj
 
-writerJSON.i: writerJSON.cpp.i
+testCard.i: testCard.cpp.i
 
-.PHONY : writerJSON.i
+.PHONY : testCard.i
 
 # target to preprocess a source file
-writerJSON.cpp.i:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.i
-.PHONY : writerJSON.cpp.i
+testCard.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.i
+.PHONY : testCard.cpp.i
 
-writerJSON.s: writerJSON.cpp.s
+testCard.s: testCard.cpp.s
 
-.PHONY : writerJSON.s
+.PHONY : testCard.s
 
 # target to generate assembly for a file
-writerJSON.cpp.s:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.s
-.PHONY : writerJSON.cpp.s
+testCard.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.s
+.PHONY : testCard.cpp.s
 
 # Help Target
 help:
@@ -266,9 +239,6 @@ help:
 	@echo ... memorization
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... file.obj
-	@echo ... file.i
-	@echo ... file.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -278,9 +248,9 @@ help:
 	@echo ... readerTXT.obj
 	@echo ... readerTXT.i
 	@echo ... readerTXT.s
-	@echo ... writerJSON.obj
-	@echo ... writerJSON.i
-	@echo ... writerJSON.s
+	@echo ... testCard.obj
+	@echo ... testCard.i
+	@echo ... testCard.s
 .PHONY : help
 
 

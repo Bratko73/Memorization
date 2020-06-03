@@ -14,14 +14,12 @@
 
 
 class file {
-protected:
     std::string PATH;
-    std::list<testCard*> testCards;
+    bool mode;
 public:
-    void transferToManager();
-    void write();
-    void read();
-    void getPATH(string s);
+    void write(std::list<testCard*> testCards);
+    static bool isPATHCorrect(std::string path);
+    std::list<testCard*> read();
 };
 
 
